@@ -1,0 +1,251 @@
+body {
+
+  font-family: sans-serif;
+
+  margin: 10px;
+}
+
+/*
+body img {
+    max-width: 100%; height: auto;
+}
+*/
+header, footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+
+    }
+a{
+    color: #d4a88c;
+}
+aside {
+    color: #d4a88c;
+    text-align: center;
+
+}
+.site-header {
+  border-bottom: 1px solid #ccc;
+  padding: 1.5em 1em;
+  background-color: black;
+}
+
+.site-header::after {
+  content: "";
+  display: table;
+  clear: both;
+
+}
+
+
+
+
+.site-identity {
+  float: left;
+  font-size: 3 em;
+  margin:  5  0 .5 ;
+  display: inline-block;
+}
+
+.site-identity img {
+  max-width: 150px;
+  float: left;
+
+}
+
+.site-navigation {
+  float: right;
+}
+
+.nav {
+  margin: 0;
+  padding: 0;
+
+}
+
+.site-navigation li {
+  display: inline-block;
+  margin: 4em 1em 1em 0.2em;
+
+
+}
+.b-image{
+width: 100%;
+  height: 400px;
+  background-image: url('/images/big_img.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.center_h {
+     color: #d4a88c;
+    text-align: center;
+}
+.row {
+    display: block;
+    text-align: left;
+}
+
+
+
+.menu-wraper{
+    display: grid;
+        grid-template-columns: repeat(2, 300px); /* Each column with a width of 300px */
+        column-gap: 20px;
+        grid-row: 20px;
+        padding: 20px;
+        border: 2px solid #ccc; /* Border added to the container */
+		justify-content: center; /* Center items horizontally */
+        align-items: center; /* Center items vertically */
+
+}
+
+@media screen and (max-width: 600px) {
+    .header, .footer {
+        background-color: blueviolet;
+        text-align: center;
+        padding: 10px 20px;
+    }
+
+
+}
+.wraper{
+  display: flex;
+  text-align: center;
+   grid-gap: 90px;
+  color: black;
+  margin: 0px;
+}
+
+.about{
+    margin: 80px;
+    line-height: 2;
+    font-size: 20px;
+}
+
+video {
+			max-width: 150%;
+			height: auto;
+			display: block;
+			margin: 0 auto;
+			border: 1px solid #ccc;
+			padding: 10px;
+		}
+board{
+    display: flex;
+
+
+}
+.creapes{
+    background-image: url('/images/big_img.jpg');
+    background-size: cover;
+    text-align: center;
+    font-size: 30px;
+/*    padding-top: 300px;*/
+    background-repeat: no-repeat;
+/*    padding: 200px;*/
+
+    color: white;
+
+}
+
+.chocolate{
+    background-image: url('/images/chokolate.jpeg');
+    background-size: cover;
+    text-align: center;
+    font-size: 30px;
+    background-repeat: no-repeat;
+/*    padding: 200px;*/
+    color: white;
+}
+
+.candy{
+    background-image: url('/images/candy.jpeg');
+    background-size: cover;
+    text-align: center;
+    font-size: 30px;
+    background-repeat: no-repeat;
+/*    padding: 200px;*/
+    color: white;
+}
+.icacream{
+    background-image: url('/images/IceCreamCart.jpeg');
+    background-size: cover;
+    text-align: center;
+    font-size: 30px;
+    background-repeat: no-repeat;
+/*    padding: 200px;*/
+    color: white;
+}
+.cotton{
+    background-image: url('/images/CottonCandy.jpeg');
+    background-size: cover;
+    text-align: center;
+    font-size: 30px;
+    background-repeat: no-repeat;
+/*    padding: 200px;*/
+    color: white;
+}
+.coffe{
+    background-image: url('/images/coffe.jpeg');
+    background-size: cover;
+    text-align: center;
+    font-size: 30px;
+    background-repeat: no-repeat;
+/*    padding: 200px;*/
+    color: white;
+}
+table img {
+  max-width: 100%;
+}
+/*
+td.img {
+ width: 100%;
+ grid-gap: 20px;
+ border-radius: 20px;
+}
+*/
+li {
+    display: inline-block;
+    margin: 20px;
+    float: auto;
+}
+
+.container {
+            max-width: 500px;
+            margin: 50px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        form {
+            display: grid;
+            gap: 10px;
+        }
+        label {
+            font-weight: bold;
+        }
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        textarea {
+            height: 100px;
+        }
+        button {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
