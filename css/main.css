@@ -137,7 +137,7 @@ board{
 
 }
 .creapes{
-    background-image: url('/images/big_img.jpg');
+    background-image: url('https://aralina2805.github.io/DolceVita.github.io/images/big_img.jpg');
     background-size: cover;
     text-align: center;
     font-size: 30px;
@@ -150,7 +150,7 @@ board{
 }
 
 .chocolate{
-    background-image: url('/images/chokolate.jpeg');
+    background-image: url('https://aralina2805.github.io/DolceVita.github.io/images/chokolate.jpeg');
     background-size: cover;
     text-align: center;
     font-size: 30px;
@@ -160,7 +160,7 @@ board{
 }
 
 .candy{
-    background-image: url('/images/candy.jpeg');
+    background-image: url('https://aralina2805.github.io/DolceVita.github.io/images/candy.jpeg');
     background-size: cover;
     text-align: center;
     font-size: 30px;
@@ -169,7 +169,7 @@ board{
     color: white;
 }
 .icacream{
-    background-image: url('/images/IceCreamCart.jpeg');
+    background-image: url('https://aralina2805.github.io/DolceVita.github.io/images/IceCreamCart.jpeg');
     background-size: cover;
     text-align: center;
     font-size: 30px;
@@ -178,7 +178,7 @@ board{
     color: white;
 }
 .cotton{
-    background-image: url('/images/CottonCandy.jpeg');
+    background-image: url('https://aralina2805.github.io/DolceVita.github.io/images/CottonCandy.jpeg');
     background-size: cover;
     text-align: center;
     font-size: 30px;
@@ -187,7 +187,7 @@ board{
     color: white;
 }
 .coffe{
-    background-image: url('/images/coffe.jpeg');
+    background-image: url('https://aralina2805.github.io/DolceVita.github.io/images/coffe.jpeg');
     background-size: cover;
     text-align: center;
     font-size: 30px;
